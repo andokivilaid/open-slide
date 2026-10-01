@@ -1,3 +1,5 @@
 {
+  "buildCommand": "cd ../.. && pnpm turbo run build --filter=demo",
+  "outputDirectory": "dist",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
